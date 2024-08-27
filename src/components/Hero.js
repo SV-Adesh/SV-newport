@@ -9,11 +9,15 @@ function Hero() {
             S V ADESH
           </h1>
           <h2 className="text-2xl lg:text-3xl font-light text-gray-300 max-w-4xl mx-auto lg:mx-0 transition-all duration-500 ease-in-out">
-            I'm a Computer Science Engineer with a strong foundation from Sahyadri College of Engineering and Management, Mangaluru, boasting a CGPA of 8.8. I specialize in crafting dynamic and responsive web pages using React.js, Express.js, and MongoDB. My expertise extends across multiple programming languages and frameworks, and I thrive in collaborative environments, committed to delivering user-friendly web applications.
+            I am a Computer Science Engineer with a strong foundation from Sahyadri College of Engineering and Management, Mangaluru, boasting a CGPA of 8.8. I specialize in crafting dynamic and responsive web pages using React.js, Express.js, and MongoDB. My expertise extends across multiple programming languages and frameworks, and I thrive in collaborative environments, committed to delivering user-friendly web applications.
           </h2>
         </div>
         <div className="lg:w-1/2 flex justify-center">
-          <img src="/img/dp.jpg" alt="Profile" className="w-80 h-80 rounded-full shadow-lg transition-transform duration-500 hover:scale-110" />
+          <img
+            src={`${process.env.PUBLIC_URL}/img/dp.jpg`}
+            alt="Profile"
+            className="w-80 h-80 rounded-full border-4 border-yellow-400 shadow-2xl transition-transform duration-500 hover:scale-110"
+          />
         </div>
       </div>
     </section>
